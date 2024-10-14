@@ -1,0 +1,23 @@
+name: iSTYLIST
+description: An app for fashion style recommendations.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.6  # แสดงข้อความสั้น ๆ บนหน้าจอ
+  cupertino_icons: ^1.0.2  # ใช้ไอคอนจาก Cupertino
+  http: ^0.13.6  # ใช้ version นี้ในการเชื่อมต่อกับ server
+  shared_preferences: ^2.0.6  # ใช้ shared_preferences เพื่อเก็บข้อมูลผู้ใช้ในเครื่อง
+  dio: ^5.0.9
+  retry: ^3.1.0  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
